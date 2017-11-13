@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cargs
-{
-    public class Class1
-    {
+namespace Cargs.Attributes {
+
+    public class PropSwitchAttrible : CargsAttribule {
+
+
+
     }
+
 }
