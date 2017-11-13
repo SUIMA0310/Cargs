@@ -5,6 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Cargs.TypeAnalyses {
-    interface ITargetInfo {
+    internal interface ITargetInfo {
+
+        bool IsMethod { get; }
+        bool IsField { get; }
+        bool IsProperty { get; }
+
+        void SetData();
+
     }
 }
