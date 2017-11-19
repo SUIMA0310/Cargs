@@ -1,0 +1,6 @@
+L:\Code\Cargs\Cargs\bin\Debug\Cargs.dll
+L:\Code\Cargs\Cargs\bin\Debug\Cargs.pdb
+L:\Code\Cargs\Cargs\obj\Debug\Cargs.csprojResolveAssemblyReference.cache
+L:\Code\Cargs\Cargs\obj\Debug\Cargs.csproj.CoreCompileInputs.cache
+L:\Code\Cargs\Cargs\obj\Debug\Cargs.dll
+L:\Code\Cargs\Cargs\obj\Debug\Cargs.pdb

@@ -1,0 +1,9 @@
+L:\Code\Cargs\Cargs\TestApp\bin\Debug\TestApp.exe.config
+L:\Code\Cargs\Cargs\TestApp\bin\Debug\TestApp.exe
+L:\Code\Cargs\Cargs\TestApp\bin\Debug\TestApp.pdb
+L:\Code\Cargs\Cargs\TestApp\bin\Debug\Cargs.dll
+L:\Code\Cargs\Cargs\TestApp\bin\Debug\Cargs.pdb
+L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.exe
+L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.pdb
+L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
