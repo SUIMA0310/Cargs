@@ -28,15 +28,15 @@ namespace Cargs.SwitchTargets {
                     break;
                 }
                 case SwitchOptions.String: {
-
+                    Info.SetValue( Instance, arg.Options.First() );
                     break;
                 }
                 case SwitchOptions.Int: {
-
+                    Info.SetValue( Instance, int.Parse( arg.Options.First() ) );
                     break;
                 }
                 case SwitchOptions.Double: {
-
+                    Info.SetValue( Instance, double.Parse( arg.Options.First() ) );
                     break;
                 }
                 default: {

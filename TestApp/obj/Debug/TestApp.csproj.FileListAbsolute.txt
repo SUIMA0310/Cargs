@@ -7,3 +7,12 @@ L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
 L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.exe
 L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.pdb
 L:\Code\Cargs\Cargs\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\bin\Debug\TestApp.exe.config
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\bin\Debug\TestApp.exe
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\bin\Debug\TestApp.pdb
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\bin\Debug\Cargs.dll
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\bin\Debug\Cargs.pdb
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\obj\Debug\TestApp.exe
+L:\Users\mizum\SkyDrive\開発\Cargs\TestApp\obj\Debug\TestApp.pdb

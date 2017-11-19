@@ -4,3 +4,9 @@ L:\Code\Cargs\Cargs\obj\Debug\Cargs.csprojResolveAssemblyReference.cache
 L:\Code\Cargs\Cargs\obj\Debug\Cargs.csproj.CoreCompileInputs.cache
 L:\Code\Cargs\Cargs\obj\Debug\Cargs.dll
 L:\Code\Cargs\Cargs\obj\Debug\Cargs.pdb
+L:\Users\mizum\SkyDrive\開発\Cargs\bin\Debug\Cargs.dll
+L:\Users\mizum\SkyDrive\開発\Cargs\bin\Debug\Cargs.pdb
+L:\Users\mizum\SkyDrive\開発\Cargs\obj\Debug\Cargs.csprojResolveAssemblyReference.cache
+L:\Users\mizum\SkyDrive\開発\Cargs\obj\Debug\Cargs.csproj.CoreCompileInputs.cache
+L:\Users\mizum\SkyDrive\開発\Cargs\obj\Debug\Cargs.dll
+L:\Users\mizum\SkyDrive\開発\Cargs\obj\Debug\Cargs.pdb
