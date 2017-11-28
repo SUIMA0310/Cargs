@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cargs.Attributes;
+﻿using Cargs.Attributes;
 
 namespace Cargs.SwitchTargets {
     internal abstract class SwitchTarget<TInfo,TAttribute> : ISwitchTarget<TInfo, TAttribute>

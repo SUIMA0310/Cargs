@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Cargs.Util;
 using Cargs.Exceptions;
 using Cargs.SwitchTargets;
 
 namespace Cargs {
 
+    /// <summary>
+    /// コマンドライン引数のパースを行うクラス
+    /// </summary>
     public class Analyzer {
+
+        #region Static Method
 
         /// <summary>
         /// 引数の解析を行います
@@ -21,6 +23,35 @@ namespace Cargs {
             new Analyzer( targetObject, args ).DoAnalyze();
 
         }
+
+        /// <summary>
+        /// 引数の解析を行います
+        /// </summary>
+        /// <typeparam name="T">アクションを起こす型</typeparam>
+        /// <param name="args">コマンドライン引数</param>
+        /// <returns>Tで指定した型のインスタンス</returns>
+        public static T Analyze<T>(IEnumerable<string> args)
+            where T : class {
+
+            return Analyze( typeof( T ), args ) as T;
+
+        }
+
+        /// <summary>
+        /// 引数の解析を行います
+        /// </summary>
+        /// <param name="targetType">アクションを起こす型</param>
+        /// <param name="args">コマンドライン引数</param>
+        /// <returns>targetTypeで指定した型のインスタンス</returns>
+        public static object Analyze(Type targetType, IEnumerable<string> args) {
+
+            var ins = new Analyzer( targetType, args );
+            ins.DoAnalyze();
+            return ins;
+
+        }
+
+        #endregion
 
         #region Property
 
@@ -70,10 +101,13 @@ namespace Cargs {
             this.Args = args ?? throw new ArgumentNullException( nameof( args ) );
         }
 
-
-
         #endregion
 
+        #region Method
+
+        /// <summary>
+        /// 解析を実行します
+        /// </summary>
         public void DoAnalyze() {
 
             var Dic = new Dictionary<string, ISwitchTarget>();
@@ -83,7 +117,7 @@ namespace Cargs {
                 Dic.AddTarget( PropTarget.GetPropTargets( TargetObject ) );
                 Dic.AddTarget( MethodTarget.GetMethodTargets( TargetObject ) );
 
-            } catch( Exception ex ) {
+            } catch ( Exception ex ) {
 
                 throw new CargsException( "属性指定が不正です", ex );
 
@@ -91,7 +125,7 @@ namespace Cargs {
 
             foreach ( var arg in Argument.GetArguments( Args ) ) {
 
-                if ( Dic.ContainsKey(arg.Switch) ) {
+                if ( Dic.ContainsKey( arg.Switch ) ) {
 
                     Dic[arg.Switch].OnSwitch( arg );
 
@@ -104,6 +138,8 @@ namespace Cargs {
             }
 
         }
+
+        #endregion
 
     }
 
